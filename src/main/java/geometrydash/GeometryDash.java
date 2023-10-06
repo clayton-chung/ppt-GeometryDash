@@ -9,6 +9,7 @@ public class GeometryDash {
      * @param level is not null and not empty
      * @param play is not null and not empty
      * @return true if the play completes the level and false otherwise
+     *
      */
     public static boolean isSuccessfulPlay(String level, String play) {
         char[] levelArray = level.toCharArray();
